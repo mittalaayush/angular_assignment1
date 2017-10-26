@@ -1,0 +1,26 @@
+.completed{
+    color : green;
+    text-decoration: line-through;
+    margin-left:25px; font-size:18px; padding:4px
+}
+.firsthead{
+    text-align: center;
+    padding: 4px;
+    background-color: beige ;
+}
+.secondhead{
+    text-align: center;
+    background-color: burlywood ;
+}
+.todoItem{
+    background-color: antiquewhite ;
+}
+.todoTask{
+    margin-left:25px; font-size:18px; padding:4px
+}
+.firstTodoTaskButton{
+    margin-left:25px; margin-top:5px; font-size:16px; padding:4px
+}
+.todoTaskButton{
+    margin-left:5px;margin-top:5px; font-size:16px; padding:4px
+}
