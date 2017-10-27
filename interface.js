@@ -68,6 +68,7 @@ function updateTodoItem(id) {
         if (task.value && task.value != "" && task.value.trim() != "") {
             update.value = "Edit";
             task.disabled = true;
+            list.todoTask[id] = task.value;
         }
         else {
             alert("Todo Item is not inputed");
