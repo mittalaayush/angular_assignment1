@@ -95,6 +95,6 @@ function completeTodoItem(id) {
 }
 function deleteTodoItem(id) {
     document.getElementById("key" + id).remove();
-    list.todoTask[id] = "";
+    delete list.todoTask[id];
     console.log(list.todoTask);
 }
